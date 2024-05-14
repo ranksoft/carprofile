@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Razoyo_CarProfile::config" title="Razoyo Car Profile Configuration" sortOrder="110">
+                    <resource id="Razoyo_CarProfile::settings" title="General Configuration" sortOrder="10"/>
+                    <resource id="Razoyo_CarProfile::api_settings" title="API Settings" sortOrder="20"/>
+                    <resource id="Razoyo_CarProfile::cache_settings" title="Cache Settings" sortOrder="30"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
